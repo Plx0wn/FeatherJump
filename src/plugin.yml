@@ -1,0 +1,33 @@
+main: fr.lucluc.featherjump.Main
+description: Jump with feather!
+name: FeatherJump
+author: [lucluc_52, Plx0wn]
+version: 2.11
+
+commands:
+  fjump:
+    description: FeatherJump's info !
+    
+permissions:
+  fjump.*:
+    description: All permissions of FeatherJump
+    default: op
+    children:
+      fjump.tuto: true
+      fjump.jump: true
+      fjump.reload: true
+      fjump.info: true
+  fjump.user:
+    description: Permissions for user
+    default: op
+    children:
+      fjump.tuto: true
+      fjump.jump: true
+  fjump.tuto:
+    description: Allow /fjump tuto
+    default: op
+  fjump.jump:
+    description: Allow to jump.
+    default: op
+  fjump.reload:
+    description: Allow /featherjump reload
