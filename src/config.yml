@@ -1,0 +1,36 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                    Jump Settings                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Default Config! If you see errors contact the author on Bukkit!
+
+# Jump modifier:
+multiplier: 1.5
+height-jump: 1.0
+
+# for other item https://docs.oc.tc/reference/inventory (take "name") or https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+item: FEATHER
+
+# for other particles https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+particles: true
+particles-type: CRIT
+
+# for other sounds https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: true
+sound-type: ENTITY_BAT_TAKEOFF
+
+no-perm: "&4You don't have the permissions."
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Delay Settings                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+delay-settings:
+   delay: 2
+   enable-delay-message: true
+   delay-message: "&cYou must wait &e&l{COUNT} &cseconds."
+   delay-message-end: "&cDone!"
